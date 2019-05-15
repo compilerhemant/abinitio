@@ -30,10 +30,10 @@ for file in os.listdir('/mnt/pspdata/.init/frag-sheet/9frag/'):
 
 	    fragfile.write(out_str + " " + file + "\n")
 	except:
-		file_errs+=f.name
+		pass
 
 
-errfile.write(file_errs + "\n")
+
 
 errfile.close()
 fragfile.close()
